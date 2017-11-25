@@ -7,7 +7,7 @@ def concat(*words, sep=" "):
     >>> concat('a','b','c', 'd')
     'a b c d'
     >>> concat('a','1')
-    'b 1'
+    'a 1'
     
     """
     return sep.join(words)
